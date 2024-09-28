@@ -1,11 +1,13 @@
-import './global.css'
-import { Button } from "./components/ui/button";
+import "./global.css";
+import { Helmet, HelmetProvider } from "react-helmet-async";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./routes";
 
 export function App() {
   return (
-    <>
-      <h1>Hello world!</h1>
-      <Button>Click me</Button>
-    </>
+    <HelmetProvider>
+      <Helmet titleTemplate="%s | LIONS" />
+      <RouterProvider router={router} />
+    </HelmetProvider>
   );
 }
