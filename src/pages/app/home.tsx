@@ -1,7 +1,11 @@
+import { Hero } from "@/components/hero";
+
 export function Home() {
   return (
     <>
-      <h1>Home</h1>
+      <section className="px-14">
+        <Hero />
+      </section>
     </>
   );
 }
