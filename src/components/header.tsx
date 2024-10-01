@@ -6,7 +6,7 @@ import { ThemeToggle } from "./theme/theme-toggle";
 export function Header() {
   return (
     <div className="border-b">
-      <div className="flex h-16 items-center gap-6 px-6">
+      <div className="flex h-16 items-center gap-4 sm:gap-6 px-6">
         <h2 className="font-bold text-red-500">LIONS</h2>
 
         <Separator orientation="vertical" className="h-6" />
