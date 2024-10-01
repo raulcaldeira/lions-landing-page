@@ -38,16 +38,16 @@ export function Hero() {
       >
         <CarouselContent>
           <CarouselItem
-            className="bg-contain bg-no-repeat bg-center h-[600px]"
+            className="bg-contain bg-no-repeat bg-center h-[200px] sm:h-[250px] md:h-[350px] lg:h-[400px] xl:h-[500px]"
             style={{ backgroundImage: "url(img-1.jpg)" }}
           ></CarouselItem>
           <CarouselItem
-            className="bg-contain bg-no-repeat bg-center h-[600px]"
+            className="bg-contain bg-no-repeat bg-center h-[200px] sm:h-[250px] md:h-[350px] lg:h-[400px] xl:h-[500px]"
             style={{ backgroundImage: "url(img-2.jpg)" }}
           ></CarouselItem>
         </CarouselContent>
       </Carousel>
-      <div className="mt-5 flex justify-center space-x-2">
+      <div className="mt-2 sm:mt-5 flex justify-center space-x-2">
         {Array.from({ length: count }, (_, index) => (
           <button
             key={index}
