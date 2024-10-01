@@ -2,16 +2,22 @@ import { CardIconText } from "@/components/card-icon-text";
 import { Hero } from "@/components/hero";
 import { Separator } from "@/components/ui/separator";
 import { DollarSign, Percent, ShieldCheck } from "lucide-react";
+import { Helmet } from "react-helmet-async";
 
 export function Home() {
   return (
     <>
+      <Helmet title="Home" />
+
       <section className="md:px-14">
         <Hero />
       </section>
 
       <div className="flex flex-col lg:flex-row justify-center items-center lg:mt-20">
-        <img src="city-driver.svg" className="h-[300px] sm:h-[350px] md:h-[450px] lg:h-[550px] xl:h-[600px] w-auto" />
+        <img
+          src="city-driver.svg"
+          className="h-[300px] sm:h-[350px] md:h-[450px] lg:h-[550px] xl:h-[600px] w-auto"
+        />
         <div className="max-w-[600px] flex flex-col justify-center items-center">
           <h2 className="text-2xl md:text-3xl lg:text-4xl border-b pb-2 px-4 border-red-500">
             Por que escolher a{" "}
