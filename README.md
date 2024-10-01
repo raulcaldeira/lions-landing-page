@@ -26,6 +26,3 @@ Durante o desenvolvimento, a responsividade da página foi uma prioridade para g
 
 Para a barra de navegação e o rodapé, optei por um design limpo e minimalista, utilizando cores e elementos gráficos que representam a identidade da Lions Seminovos.
 
-
-O projeto está organizado da seguinte forma:
-
