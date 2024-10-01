@@ -2,12 +2,15 @@ import { Car, Home } from "lucide-react";
 import { Separator } from "./ui/separator";
 import { NavLink } from "./nav-link";
 import { ThemeToggle } from "./theme/theme-toggle";
+import { Link } from "react-router-dom";
 
 export function Header() {
   return (
     <div className="border-b">
       <div className="flex h-16 items-center gap-4 sm:gap-6 px-6">
-        <h2 className="font-bold text-red-500">LIONS</h2>
+        <Link to="/">
+          <h2 className="font-bold text-red-500">LIONS</h2>
+        </Link>
 
         <Separator orientation="vertical" className="h-6" />
 
