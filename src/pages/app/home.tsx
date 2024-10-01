@@ -13,9 +13,9 @@ export function Home() {
       <div className="flex gap-16 justify-center items-center">
         <img src="city-driver.svg" className="h-[700px] w-auto" />
         <div className="max-w-[600px] flex flex-col justify-center items-center">
-          <h2 className="text-4xl border-b pb-2 px-4 border-red-500 dark:border-red-600">
+          <h2 className="text-4xl border-b pb-2 px-4 border-red-500">
             Por que escolher a{" "}
-            <span className="text-red-500 dark:text-red-600 font-bold uppercase">lions</span>?
+            <span className="text-red-500 font-bold uppercase">lions</span>?
           </h2>
           <p className="mt-4 text-xl opacity-75">
             As melhores condições para a compra do veículo dos seus sonhos estão
