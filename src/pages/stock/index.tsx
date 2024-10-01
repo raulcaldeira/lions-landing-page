@@ -69,7 +69,7 @@ export function Stock() {
 
   return (
     <div>
-      <Badge variant="outline" className="text-xl border-red-500 uppercase">
+      <Badge variant="outline" className="text-md md:text-xl border-red-500 uppercase">
         Estoque
       </Badge>
 
