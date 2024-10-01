@@ -1,4 +1,4 @@
-import { Car, Home, List } from "lucide-react";
+import { Car, Home } from "lucide-react";
 import { Separator } from "./ui/separator";
 import { NavLink } from "./nav-link";
 import { ThemeToggle } from "./theme/theme-toggle";
@@ -16,11 +16,7 @@ export function Header() {
             <Home className="h-4 w-4" />
             Início
           </NavLink>
-          <NavLink to="/services">
-            <List className="h-4 w-4" />
-            Serviços
-          </NavLink>
-          <NavLink to="/services">
+          <NavLink to="/stock">
             <Car className="h-4 w-4" />
             Veículos
           </NavLink>
