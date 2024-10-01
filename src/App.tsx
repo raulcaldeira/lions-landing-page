@@ -8,7 +8,7 @@ export function App() {
   return (
     <HelmetProvider>
       <Helmet titleTemplate="%s | LIONS" />
-      <ThemeProvider defaultTheme="dark" storageKey="pizzashop-theme">
+      <ThemeProvider defaultTheme="dark" storageKey="lions-theme">
         <RouterProvider router={router} />
       </ThemeProvider>
     </HelmetProvider>
